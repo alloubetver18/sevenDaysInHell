@@ -1,0 +1,11 @@
+{
+	"name": "app7dh",
+	"version": "1.0.0",
+	"scripts": {
+		"build": "babel src -d dist"
+	},
+	"devDependencies": {
+		"babel-cli": "^6.26.0",
+		"babel-preset-env": "^1.7.0"
+	}
+}

@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carrusel</title>
+    <link rel="stylesheet" type="text/css" href="css/css.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <img src="assets/img/Copia de logotipo.svg" alt="" srcset="" />
+    </header>
+
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide slide-video">
+          <video controls poster="assets/img/1.jpg">
+            <source src="assets/video/trailer-7DH.mp4" type="video/mp4" />
+            Tu navegador no soporta el elemento de video.
+          </video>
+        </div>
+        <div class="swiper-slide slide-image">
+          <img src="assets/img/Escenario1.jpg" />
+        </div>
+        <div class="swiper-slide slide-image">
+          <img src="assets/img/Escenario2.jpg" />
+        </div>
+        <div class="swiper-slide slide-image">
+          <img src="assets/img/Escenario3.jpg" />
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+
+    <section id="content-tabs">
+      <div class="contenedor">
+        <ul class="ul personajes">
+          <li class="li activo">Alma Errante</li>
+          <li class="li">Negakirb</li>
+          <li class="li">Murcy</li>
+          <li class="li">Golem de fuego</li>
+        </ul>
+
+        <div class="subcontenedor">
+          <div class="bloque activo">
+            <div class="container">
+              <img
+                src="assets/img/alma_errante DEF2.svg"
+                alt="Descripción de la imagen"
+                class="image"
+              />
+              <div class="text">
+                <p>
+                  Lux, un Alma Errante que, de camino al Cielo, es capturado por
+                  las huester infernales, y arrastrado al Infierno, donde es
+                  privado de sus recuerdos.
+                </p>
+                <p>
+                  Su misión: recuperar los fragmentos rotos de su memoria y
+                  escapar del Infierno en menos de 7 días, antes de que el Rey
+                  del Infierno reclame su ser.
+                </p>
+                <p>
+                  Para lograrlo, necesitará de toda su astucia y pericia, y de
+                  los poderes que obtenga en el Infierno para tal fin.
+                </p>
+
+                <br />
+              </div>
+            </div>
+          </div>
+          <div class="bloque">
+            <div class="container">
+              <img
+                src="assets/img/NegaKirb-svg.svg"
+                alt="Descripción de la imagen"
+                class="image"
+              />
+              <div class="text">
+                <p>
+                  Negakirb, el estado más básico de las almas caidas en el
+                  Infierno. Su único propósito es hacer sufrir a sus semejantes
+                  más de lo que sufren ellos mismos.
+                </p>
+                <p>
+                  Su presencia será una constante en todos los niveles del
+                  Infierno, pues vagan de un nivel a otro, guiados por un ánsia
+                  devoradora.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="bloque">
+            <div class="container">
+              <img
+                src="assets/img/Murcy-svg.svg"
+                alt="Descripción de la imagen"
+                class="image"
+              />
+              <div class="text">
+                <p>
+                  Murcy, una raza de murciélagos infernales que se alimentan del
+                  dolor y el sufrimiento de sus víctimas. Algo peor que la
+                  muerte espera a aquellos a los que le hincan el diente.
+                </p>
+                <p>
+                  Suelen encontrarse en las zonas más profundas del infierno, en
+                  los Oceanos de Fuego, en busca de Almas incautas a las que
+                  devorar.
+                </p>
+                <p>
+                  Debes tener mucho cuidado, pues son rápidos y astutos, y no se
+                  dejarán intimidar fácilmente.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="bloque">
+            <div class="container">
+              <img
+                src="assets/img/Golem_Fuego.svg"
+                alt="Descripción de la imagen"
+                class="image"
+              />
+
+              <div class="text">
+                <p>
+                  Ignis, el Golem de Fuego, guardián de la salida del nivel más
+                  profundo del Infierno: el Infierno Llameante.
+                </p>
+                <p>
+                  Como el ser más poderoso de este nivel, su misión es
+                  salvaguardar la salida al nivel superior, y reducir a cenizas
+                  a todo aquel que se atreva a intentar escapar.
+                </p>
+                <p>
+                  Hasta la fecha, ningún alma desafortunada ha sido capaz de
+                  atravesar sus defensas. El Alma Errante necesitará de todas
+                  sus habilidades para poder superar sus defensas.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery-lightbox">
+      <h1>Galería de imágenes</h1>
+      <br />
+      <ul class="ul">
+        <li class="li">
+          <a href="#" class="a" title="Imagen 1">
+            <img
+              src="assets/img/1.jpg"
+              alt="Imagen 1"
+              class="img"
+              loading="lazy"
+            />
+          </a>
+        </li>
+        <li class="li">
+          <a href="#" class="a" title="Imagen 2">
+            <img
+              src="assets/img/2.jpg"
+              alt="Imagen 2"
+              class="img"
+              loading="lazy"
+            />
+          </a>
+        </li>
+        <li class="li">
+          <a href="#" class="a" title="Imagen 3">
+            <img
+              src="assets/img/3.jpg"
+              alt="Imagen 3"
+              class="img"
+              loading="lazy"
+            />
+          </a>
+        </li>
+        <li class="li">
+          <a href="#" class="a" title="Imagen 4">
+            <img
+              src="assets/img/4.jpg"
+              alt="Imagen 4"
+              class="img"
+              loading="lazy"
+            />
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <div class="lightbox">
+      <button class="cerrar">Cerrar</button>
+      <img
+        src="assets/img/1.jpg"
+        alt="Imagen 1"
+        class="grande"
+        loading="lazy"
+      />
+    </div>
+
+    <section id="acordeon">
+      <h2>Recursos utilizados</h2>
+      <div class="acordeon">
+        <div class="bloque">
+          <h2 class="h2">Audios</h2>
+          <div class="contenido" id="audios">
+            <div>
+              <h3>Call to survive - Kevin MacLeo</h3>
+              <audio controls>
+                <source
+                  src="assets/audio/Call_To_Survive-Kevin_MacLeo.mp3"
+                  type="audio/mpeg"
+                />
+              </audio>
+            </div>
+            <div>
+              <h3>Música de acción - Kevin MacLeo</h3>
+              <audio controls>
+                <source
+                  src="assets/audio/Musica_de_Accion-Kevin_MacLeo.mp3"
+                  type="audio/mpeg"
+                />
+              </audio>
+            </div>
+          </div>
+        </div>
+        <div class="bloque">
+          <h2 class="h2">Recursos</h2>
+          <div class="contenido">
+            <div>
+              <h3>Lava</h3>
+              <img src="assets/img/Lava.jpg" />
+            </div>
+            <div>
+              <h3>Plataformas</h3>
+              <img
+                src="assets/img/plataformas_flotantes_lava-Modificadas.bmp"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- <div class="bloque">
+          <h2 class="h2">Vídeo</h2>
+          <div class="contenido">
+            <iframe src="assets/video/trailer-7DH.mp4"></iframe>
+          </div>
+        </div> -->
+      </div>
+    </section>
+
+    <footer>
+      <section id="autores">
+        Trabajo realizado por:
+        <ul class="autores">
+          <li>Lidia López Marchante</li>
+          <li>Daniel Martín Hermoso Hermoso</li>
+          <li>Alban Loubet Vergara</li>
+        </ul>
+      </section>
+      <section id="asignatura-fp">
+        <ul>
+          <li>Diseño de Aplicaciones Web</li>
+          <li>2º D.A.W</li>
+        </ul>
+      </section>
+      <section id="insti">
+        <p>I.E.S. Fernando Aguilar Quignon</p>
+      </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="js/js.js"></script>
+  </body>
+</html>
