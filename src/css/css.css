@@ -736,7 +736,9 @@ header img{
     width:60%;
   }
 
-  
+  footer{
+    flex-direction: column;
+  }
 
 
   
